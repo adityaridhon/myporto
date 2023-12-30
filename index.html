@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+  <section id="home" class="h-[100vh]">
+    <div class="hero min-h-screen bg-base-200">
+      <div class="hero-content flex-col">
+        <img src="adit.jpg" class="mask mask-squircle shadow-2xl" />
+        <div class="">
+          <h1 class="text-center text-xl lg:text-3xl font-bold">Aditya Ridho Nugroho | Informatika 23'</h1>
+          <p class="py-4">Halo! Selamat datang di Website Portfolio Saya. Semoga dapat memberikan kesan tersendiri untuk Anda. Selamat menikmati😉.</p>
+        </div>
+        <a href="#about" class="btn btn-primary items-center px-6">Mulai!</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="h-screen lg:h-[300px]">
+  <div class="items-center">
+    <div class="pt-8 mb-8">
+      <h1 class="text-center font-bold text-3xl">Tentang Saya</h1>
+    </div>
+    <div class="card bg-base-100">
+      <div class="mx-10 lg:mx-24">
+        <p class="text-justify">Saya adalah mahasiswa Informatika di Institut Teknologi Kalimantan. Saya memiliki ketertarikan di bidang UI/UX Design dan Front-End Web Development. Keahlian teknis saya didukung oleh kemampuan komunikasi yang baik serta kemampuan bekerja sama dalam tim. Saya yakin kombinasi antara keahlian teknis dan soft skill ini dapat memberikan kontribusi positif dalam lingkungan kerja di mana kreativitas dan teknologi saling bersinergi.</p>
+        <div class="flex justify-center mt-8">
+          <a href="#education" class="btn btn-primary"><i data-feather="arrow-down"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section id="education" class="h-screen">
+    <div class="hero h-screen" style="background-image: url(edu.jpg);">
+      <div class="hero-overlay bg-opacity-60">
+        <h1 class="text-center font-bold text-3xl my-12">Pendidikan Saya</h1>
+      </div>
+      <div class="mx-10">
+        <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+          <li>
+            <div class="timeline-middle">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+            </div>
+            <div class="timeline-start md:text-end mb-10">
+              <time class="font-mono italic">2020-2023</time>
+              <div class="text-lg font-black">SMK KARTIKA V-1 BALIKPAPAN</div>
+              Teknik Komputer dan Jaringan
+            </div>
+            <hr/>
+          </li>
+          <li>
+            <hr />
+            <div class="timeline-middle">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+            </div>
+            <div class="timeline-end mb-10">
+              <time class="font-mono italic">2023-Now</time>
+              <div class="text-lg font-black">INSTITUT TEKNOLOGI KALIMANTAN</div>
+              Informatika
+            </div>
+            <hr />
+          </li>
+        </ul>
+      </div>  
+    </div>
+    
+  </section>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>feather.replace();</script>
+</body>
+</html>
